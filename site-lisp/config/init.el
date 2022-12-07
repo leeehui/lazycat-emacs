@@ -4,6 +4,11 @@
 ;; 字体设置
 (require 'init-font)
 
+(setq url-proxy-services
+   '(("no_proxy" . "^\\(localhost\\|10\\..*\\|192\\.168\\..*\\)")
+     ("http" . "127.0.0.1:7890")
+     ("https" . "127.0.0.1:7890")))
+
 (let (
       ;; 加载的时候临时增大`gc-cons-threshold'以加速启动速度。
       (gc-cons-threshold most-positive-fixnum)
