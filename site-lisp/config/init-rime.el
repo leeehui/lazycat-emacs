@@ -83,13 +83,14 @@
 (require 'rime)
 
 ;;; Code:
-(setq rime-user-data-dir "/home/andy/.config/fcitx/rime")
+(setq rime-user-data-dir "/home/bgb/.config/fcitx/rime")
 
 (setq rime-posframe-properties
       (list :background-color "#333333"
             :foreground-color "#dcdccc"
-            :font "TsangerJinKai03-6763-13"
+            :font "WenQuanYi Micro Hei Mono-18"
             :internal-border-width 10))
+
 
 (setq default-input-method "rime"
       rime-show-candidate 'posframe)
