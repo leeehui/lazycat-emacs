@@ -86,6 +86,7 @@
 
          (require 'init-sort-tab)
          (require 'init-cscope)
+         (require 'init-sdcv)
          ))))
 
 (provide 'init)

@@ -301,3 +301,6 @@ url = https://github.com/manateelazycat/markmacro.git
 [submodule "site-lisp/extensions/xcscope.el"]
 	path = site-lisp/extensions/xcscope.el
 	url = git@github.com:dkogan/xcscope.el.git
+[submodule "site-lisp/extensions/sdcv"]
+	path = site-lisp/extensions/sdcv
+	url = git@github.com:manateelazycat/sdcv.git
