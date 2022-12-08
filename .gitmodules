@@ -298,3 +298,6 @@ url = https://github.com/immerrr/lua-mode
 path = site-lisp/extensions/markmacro
 url = https://github.com/manateelazycat/markmacro.git
 
+[submodule "site-lisp/extensions/xcscope.el"]
+	path = site-lisp/extensions/xcscope.el
+	url = git@github.com:dkogan/xcscope.el.git

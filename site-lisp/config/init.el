@@ -85,6 +85,7 @@
          (emacs-session-restore)
 
          (require 'init-sort-tab)
+         (require 'init-cscope)
          ))))
 
 (provide 'init)
